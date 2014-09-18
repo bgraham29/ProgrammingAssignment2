@@ -1,5 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCacheMatrix creates an inverse and caches it into variable M
+## cacheSolve retrieves the inverse from the cache (if it exits) or
+## computes the inverse if it is not yet cached.
+## This code does not capture errors for non-square or singular matrices.
 
 ## Create a 'matrix' object that caches the inverse
 
